@@ -1,0 +1,7 @@
+html, body {
+    background-color:cornsilk;
+}
+
+header > nav > div > div > ul > li :hover {
+    background-color: grey;
+}
