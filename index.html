@@ -10,7 +10,7 @@
     <title>Mon Assossiation Fictive</title>
 </head>
 
-<body class="container-fluid">
+<body class="">
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white mb-4">
@@ -37,36 +37,71 @@
     </header>
     <!--Titre-->
     <h1 class="text-center mb-5">Mon Assossiation Fictive</h1>
+
     <!--Contenu 1 -->
+
     <div class="container col-12">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-5 cadre mx-lg-2 mb-3">
-                <h3 class="text-center">Qui sommes nous?</h3>  
-                <p class="lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean leo sapien, 
+                <h3 class="text-center mt-2">Qui sommes nous?</h3>  
+                <p class="px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean leo sapien, 
                 sollicitudin eu ultricies non, tincidunt sed diam. Sed pharetra non nisi consequat 
                 imperdiet. Suspendisse in consequat nibh. Nunc scelerisque, mauris a ornare porta, nisi 
                 ex feugiat libero, a accumsan nisl ligula sit amet libero. Nulla sed dui lacus. Ut elit 
                 orci, tempus eget pretium sit amet, convallis a enim. Praesent pretium mauris nec odio 
                 venenatis, sit amet dapibus mi porttitor. Ut vulputate vulputate pellentesque. Donec 
-                eget dolor turpis. Vivamus semper dui lacus, ut bibendum purus accumsan a. Sed luctus 
-                ultricies congue.
+                eget dolor turpis. Vivamus semper dui lacus, ut bibendum purus accumsan a.
                 </p>
             </div>
-    <!--Contenu 2 -->
+
+            <!--Contenu 2 -->
+
             <div class="col-12 col-lg-5 cadre mx-lg-2 mb-3">
-                <h3 class="text-center">Nos activités</h3>
-                <p class="lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean leo sapien, 
-                sollicitudin eu ultricies non, tincidunt sed diam.</p>
-                <ul>
+                <h3 class="text-center mt-2">Nos activités</h3>
+                <p class="px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean leo sapien, 
+                sollicitudin eu ultricies non, tincidunt sed diam.
+                </p>
+                <ul class="mx-4">
                     <li>lorem ipsum</li>
                     <li>lorem ipsum</li>
                     <li>lorem ipsum</li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </div>
     </div>
 
+    <!-- Carousel -->
+
+    <div class="container col-12">
+        <div class="row justify-content-center text-center">
+            <div class="col-12 col-lg-6">
+                <h3>Voyez en plus</h3>
+                <p> Voici un exemple de nos journées types.</p>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Ressources/img001.jpg" class="d-block w-100" alt="image001">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Ressources/img002.jpg" class="d-block w-100" alt="Image002">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Ressources/img003.jpg" class="d-block w-100" alt="Image003">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

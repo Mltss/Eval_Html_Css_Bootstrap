@@ -16,3 +16,9 @@ header > nav > div > div > ul > li :hover {
     border: 1px solid black;
     border-radius: 10px;
 }
+
+/*Fix taille des images carousel*/
+.carousel-item > img {
+    width:640px;
+    height:360px;
+  }
