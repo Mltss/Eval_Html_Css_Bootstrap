@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="package/bootstrap.min.css" rel="stylesheet">
 <!-- CDN Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
 <!-- Style Css -->
@@ -17,7 +17,7 @@
     <title>Mon Assossiation Fictive</title>
 </head>
 
-<body class="">
+<body>
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -27,14 +27,14 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse text-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item px-2 fs-5">
+                    <ul class="navbar-nav fs-5">
+                    <li class="nav-item px-2">
                         <a class="nav-link rounded-pill" href="index.html">Accueil</a>
                     </li>
-                    <li class="nav-item px-2 fs-5">
+                    <li class="nav-item px-2">
                         <a class="nav-link disabled rounded-pill" href="#">Contact</a>
                     </li>
-                    <li class="nav-item px-2 fs-5">
+                    <li class="nav-item px-2">
                         <a class="nav-link active rounded-pill text-decoration-underline" aria-current="page" href="#">Événements</a>
                     </li>
                     </ul>
@@ -42,21 +42,23 @@
             </div>
         </nav>
     </header>
+
     <!-- Titre -->
     <h1 class="text-center mt-4 mb-4">Rencontrez nous!</h1>
+
     <!-- Contenu -->
-    <div class="container col-12">
+    <div class="container">
         <div class="row justify-content-center">
-            <div class="col-11 col-lg-6 cadre">
-                <p class="fs-5">Cet année, nous organisons une rencontre entre tout les membre de l'assossiation,
+            <div class="col-11 col-lg-6 cadre fs-5">
+                <p>Cet année, nous organisons une rencontre entre tout les membre de l'assossiation,
                     ainsi que les personne désireuse de nous rencontrer ou nous rejoindre.<br>A la carte :
                 </p>
-                <ul class="fs-5">
+                <ul>
                     <li>Conférence</li>
                     <li>Espace echange</li>
                     <li>Remise de documents à titres informatif</li>
                 </ul>
-                <p class="fs-5">
+                <p>
                     Nous serons heureux de vous rencontrez et esperons vous voir nombreux. <br>
                     La liste des lieux et dates des meetings sont indiquer ci dessous.
                 </p>
@@ -65,7 +67,7 @@
     </div>
 
     <!-- tableau -->
-    <div class="container col-12">
+    <div class="container">
         <div class="row justify-content-center">
             <div class="col-10 col-lg-4 mt-4">
                 <table class="table fs-5">
@@ -98,11 +100,8 @@
         </div>
     </div>
     
-
     <p class="fs-5 text-center"><b>Adresse du prochain lieu</b>:</p>
-
     <!-- Iframe googlemap -->
-
     <div class="d-flex justify-content-center mt-3">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5112.114556346755!2d2.3329614714568288!3d48.860454206771244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sMus%C3%A9e%20du%20Louvre!5e0!3m2!1sfr!2sfr!4v1657819011294!5m2!1sfr!2sfr" 
         width="80%" 
@@ -114,9 +113,8 @@
         </iframe>
     </div>
 
-        <!--Footer-->
-
-    <footer class="col-12 text-center mt-4">
+    <!--Footer-->
+    <footer class="mt-4 text-center">
         <span>Suivez-nous!</span>
         <div class="d-flex justify-content-evenly justify-content-lg-center">
             <a href="#">
@@ -131,6 +129,8 @@
         </div>
     </footer>
 </body>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- Jquery -->
+<script src="package/jquery-3.6.0.min.js"></script>
+<!-- javascript -->
+<script src="package/bootstrap.min.js"></script>
 </html>
